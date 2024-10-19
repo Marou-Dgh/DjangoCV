@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import include #added the 19/10/24
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include("DjangoCV.MonCV.urls")), # Include the MonCV app's URLs
 ]

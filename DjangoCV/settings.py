@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'DjangoCV.MonCV', #added the 19/10/24
 ]
 
 MIDDLEWARE = [
